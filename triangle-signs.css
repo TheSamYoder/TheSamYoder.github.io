@@ -1,0 +1,170 @@
+:root {
+    --DarkViolet: #300350;
+    --Blue: #1E2C9A;
+    --LightBlue: #67CFD0;
+    --Pink: #C90ED6;
+    --Peach: #F0CA75;
+    --LightPink: #E1A6A1;
+    --LightViolet: #47325D;
+    --White: white;
+}
+
+.triangle-sign {
+    margin-top: -470px;
+    margin-left: 150px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.triangle-sign-2 {
+    margin-top: -270px;
+    margin-left: 150px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.triangle-sign-3 {
+    margin-top: -70px;
+    margin-left: 150px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.triangle-sign-4 {
+    margin-top: 130px;
+    margin-left: 150px;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+}
+
+.triangle-sign .triangle-1,
+.triangle-sign-2 .triangle-1,
+.triangle-sign-3 .triangle-1,
+.triangle-sign-4 .triangle-1 {
+    position: relative;
+    z-index: 3;
+    margin-top: 10%;
+    transform: rotate(-20deg);
+    width: 200px;
+    height: 200px;
+}
+
+.triangle-sign .triangle-top-1,
+.triangle-sign-2 .triangle-top-1,
+.triangle-sign-3 .triangle-top-1,
+.triangle-sign-4 .triangle-top-1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-top: 4px solid #E1A6A1;
+}
+
+.triangle-sign .triangle-sides-1,
+.triangle-sign-2 .triangle-sides-1,
+.triangle-sign-3 .triangle-sides-1,
+.triangle-sign-4 .triangle-sides-1 {
+    position: absolute;
+    margin: auto;
+    top: -35%;
+    left: 0;
+    right: 0;
+    width: 68.5%;
+    height: 68.5%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    border-right: 4px solid #E1A6A1;
+    border-bottom: 4px solid #E1A6A1;
+}
+
+.triangle-sign .triangle-2,
+.triangle-sign-2 .triangle-2,
+.triangle-sign-3 .triangle-2,
+.triangle-sign-4 .triangle-2 {
+    position: relative;
+    margin-top: -100%;
+    margin-left: 5%;
+    z-index: 3;
+    transform: rotate(-27deg);
+    width: 200px;
+    height: 200px;
+}
+
+.triangle-sign .triangle-top-2,
+.triangle-sign-2 .triangle-top-2,
+.triangle-sign-3 .triangle-top-2,
+.triangle-sign-4 .triangle-top-2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-top: 4px solid #F0CA75;
+}
+
+.triangle-sign .triangle-sides-2,
+.triangle-sign-2 .triangle-sides-2,
+.triangle-sign-3 .triangle-sides-2,
+.triangle-sign-4 .triangle-sides-2 {
+    position: absolute;
+    margin: auto;
+    top: -35%;
+    left: 0;
+    right: 0;
+    width: 68.5%;
+    height: 68.5%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    border-right: 4px solid #F0CA75;
+    border-bottom: 4px solid #F0CA75;
+}
+
+.triangle-sign .triangle-3,
+.triangle-sign-2 .triangle-3,
+.triangle-sign-3 .triangle-3,
+.triangle-sign-4 .triangle-3 {
+    position: relative;
+    z-index: 3;
+    margin-top: -100%;
+    margin-left: -5%;
+    transform: rotate(-13deg);
+    width: 200px;
+    height: 200px;
+}
+
+.triangle-sign .triangle-top-3,
+.triangle-sign-2 .triangle-top-3,
+.triangle-sign-3 .triangle-top-3,
+.triangle-sign-4 .triangle-top-3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-top: 4px solid #EF7F8B;
+}
+
+.triangle-sign .triangle-sides-3,
+.triangle-sign-2 .triangle-sides-3,
+.triangle-sign-3 .triangle-sides-3,
+.triangle-sign-4 .triangle-sides-3 {
+    position: absolute;
+    margin: auto;
+    top: -35%;
+    left: 0;
+    right: 0;
+    width: 68.5%;
+    height: 68.5%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    border-right: 4px solid #EF7F8B;
+    border-bottom: 4px solid #EF7F8B;
+}

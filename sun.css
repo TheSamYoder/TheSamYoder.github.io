@@ -1,0 +1,87 @@
+:root {
+    --DarkViolet: #300350;
+    --Blue: #1E2C9A;
+    --LightBlue: #67CFD0;
+    --Pink: #C90ED6;
+    --Peach: #F0CA75;
+    --LightPink: #E1A6A1;
+    --LightViolet: #47325D;
+    --White: white;
+}
+
+.sun {
+    margin: auto;
+    margin-top: 10vh;
+    width: 450px;
+    height: 450px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px transparent;
+    border-radius: 225px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sun::before,
+.sun::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(#F0CA75, #F0AA7E);
+}
+
+.sun::after {
+    height: 23px;
+    top: auto;
+    bottom: 0;
+    background-image: linear-gradient(#EF5497, #EF5497);
+}
+
+.sun .sun-part-2 {
+    position: absolute;
+    top: 207px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-image: linear-gradient(#F0AA7E, #F09F81);
+}
+
+.sun .sun-part-3 {
+    position: absolute;
+    top: 229px;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-image: linear-gradient(#F09F81, #EF8A88);
+}
+
+.sun .sun-part-4 {
+    position: absolute;
+    top: 281px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(#EF8A88, #EF7F8B);
+}
+
+.sun .sun-part-5 {
+    position: absolute;
+    top: 328px;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background-image: linear-gradient(#EF7F8B, #EF5F94);
+}
+
+.sun .sun-part-6 {
+    position: absolute;
+    top: 360px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(#EF5F94, #EF5497);
+}

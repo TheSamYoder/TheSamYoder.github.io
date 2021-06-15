@@ -1,0 +1,64 @@
+:root {
+    --DarkViolet: #300350;
+    --Blue: #1E2C9A;
+    --LightBlue: #67CFD0;
+    --Pink: #C90ED6;
+    --Peach: #F0CA75;
+    --LightPink: #E1A6A1;
+    --LightViolet: #47325D;
+    --White: white;
+}
+
+body {
+    margin: 0;
+}
+
+.gradient-fill {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    background-image: linear-gradient(#47325D 20%, #C90ED6);
+    position: absolute;
+}
+
+.overlay-grid {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    background-size: 20px 20px, 20px 20px;
+    background-position: -1px -1px, -1px -1px;
+    background-image: linear-gradient(rgba(255, 255, 255, .05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, .05) 1px, transparent 1px);
+    mix-blend-mode: difference;
+    z-index: 0;
+}
+
+.first-name {
+    font-family: 'Orbitron', sans-serif;
+    color: #67CFD0;
+    font-size: 80pt;
+    font-style: italic;
+    text-shadow: 7px 7px white;
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 36%;
+    transform: rotate(-5deg);
+    z-index: 2;
+}
+
+.last-name {
+    font-family: 'Orbitron', sans-serif;
+    color: #67CFD0;
+    font-size: 80pt;
+    font-style: italic;
+    text-shadow: 7px 7px white;
+    position: absolute;
+    margin-top: -295px;
+    margin-left: 41%;
+    transform: rotate(-5deg);
+    z-index: 2;
+}
