@@ -10,35 +10,35 @@
 }
 
 .triangle-sign {
-    margin-top: -470px;
-    margin-left: 150px;
+    margin-top: 400px;
+    margin-left: 280px;
     position: absolute;
     width: 200px;
     height: 200px;
 }
 
 .triangle-sign-2 {
-    margin-top: -270px;
-    margin-left: 150px;
+    margin-top: 400px;
+    margin-left: 1460px;
     position: absolute;
     width: 200px;
     height: 200px;
 }
 
 .triangle-sign-3 {
-    margin-top: -70px;
-    margin-left: 150px;
+    margin-top: 700px;
+    margin-left: 1150px;
     position: absolute;
     width: 200px;
     height: 200px;
 }
 
 .triangle-sign-4 {
-    margin-top: 130px;
-    margin-left: 150px;
+    margin-top: 700px;
+    margin-left: 620px;
     position: absolute;
     width: 200px;
-    height: 100px;
+    height: 200px;
 }
 
 .triangle-sign .triangle-1,
