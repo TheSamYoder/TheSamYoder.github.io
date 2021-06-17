@@ -11,99 +11,74 @@
 
 @keyframes flicker {
 
-    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
         text-shadow:
-            0 0 4px #fff,
-            0 0 11px #fff,
-            0 0 19px #fff,
-            0 0 40px #0fa,
-            0 0 80px #0fa,
-            0 0 90px #0fa,
-            0 0 100px #0fa,
-            0 0 150px #0fa;
+            0 0 4px var(--White),
+            0 0 11px var(--White),
+            0 0 19px var(--White),
+            0 0 40px var(--LightBlue),
+            0 0 80px var(--LightBlue),
+            0 0 90px var(--LightBlue),
+            0 0 100px var(--LightBlue),
+            0 0 150px var(--LightBlue);
     }
 
-    20%, 24%, 55% {
+    20%,
+    24%,
+    55% {
         text-shadow: none;
     }
 }
 
-@keyframes pulsate {
-    100% {
-        text-shadow:
-            0 0 4px #fff,
-            0 0 11px #fff,
-            0 0 19px #fff,
-            0 0 42px #67CFD0,
-            0 0 82px #67CFD0,
-            0 0 92px #67CFD0,
-            0 0 102px #67CFD0,
-            0 0 151px #67CFD0;
-    }
-
-    0% {
-        text-shadow:
-            0 0 4px #fff,
-            0 0 10px #fff,
-            0 0 18px #fff,
-            0 0 42px #67CFD0,
-            0 0 82px #67CFD0,
-            0 0 92px #67CFD0,
-            0 0 102px #67CFD0,
-            0 0 151px #67CFD0;
-    }
-}
-
-.neon-constant, .neon-constant:active, .neon-constant:visited, .neon-constant:link {
-    color: #fff;
-    text-shadow: 0 0 7px #fff,
-        0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #67CFD0,
-        0 0 82px #67CFD0,
-        0 0 92px #67CFD0,
-        0 0 102px #67CFD0,
-        0 0 151px #67CFD0;
+.neon-constant,
+.neon-constant:active,
+.neon-constant:visited,
+.neon-constant:link {
+    color: var(--White);
+    text-shadow: 0 0 7px var(--White),
+        0 0 10px var(--White),
+        0 0 21px var(--White),
+        0 0 42px var(--LightBlue),
+        0 0 82px var(--LightBlue),
+        0 0 92px var(--LightBlue),
+        0 0 102px var(--LightBlue),
+        0 0 151px var(--LightBlue);
     font-size: 32pt;
     font-family: 'Handlee',
         cursive;
-    animation: pulsate .55s ease-in-out infinite alternate;
-    text-decoration: none;
 }
 
-.neon-flicker, .neon-flicker:active, .neon-flicker:visited, .neon-flicker:link {
-    text-decoration: none;    
-    color: #fff;
-        text-shadow: 0 0 7px #fff,
-        0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #67CFD0,
-        0 0 82px #67CFD0,
-        0 0 92px #67CFD0,
-        0 0 102px #67CFD0,
-        0 0 151px #67CFD0;
-        font-size: 32pt;
-        font-family: 'Handlee',
+.neon-flicker,
+.neon-flicker:active,
+.neon-flicker:visited,
+.neon-flicker:link {
+    color: var(--White);
+    text-shadow: 0 0 7px var(--White),
+        0 0 10px var(--White),
+        0 0 21px var(--White),
+        0 0 42px var(--LightBlue),
+        0 0 82px var(--LightBlue),
+        0 0 92px var(--LightBlue),
+        0 0 102px var(--LightBlue),
+        0 0 151px var(--LightBlue);
+    font-size: 32pt;
+    font-family: 'Handlee',
         cursive;
-        animation: flicker 5s ease-in-out infinite alternate;
+    animation: flicker 4s infinite alternate;
 }
 
 .about-me {
-    margin-top: 420px;
-    margin-left: 300px;
+    margin-top: 435px;
+    margin-left: 280px;
     position: absolute;
     z-index: 5;
     transform: rotate(-5deg)
-}
-
-.about-me:hover {
-    color: gray;
-    text-shadow: 0 0 7px black;
-}
-
-.me {
-    margin-left: 50px;
-    
 }
 
 .resume {
@@ -114,22 +89,12 @@
     transform: rotate(-5deg)
 }
 
-.resume:hover {
-    color: gray;
-    text-shadow: 0 0 7px black;
-}
-
 .contact {
-        margin-top: 735px;
-        margin-left: 615px;
-        position: absolute;
-        z-index: 5;
-        transform: rotate(-5deg)
-}
-
-.contact:hover {
-    color: gray;
-    text-shadow: 0 0 7px black;
+    margin-top: 735px;
+    margin-left: 615px;
+    position: absolute;
+    z-index: 5;
+    transform: rotate(-5deg)
 }
 
 .portfolio {
@@ -138,16 +103,34 @@
     position: absolute;
     z-index: 5;
     transform: rotate(-5deg)
-    
 }
 
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
 
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
 
 a:hover {
     color: rgb(119, 118, 118);
     text-decoration: none;
     text-shadow: 0 0 7px black;
 }
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
 
 .triangle-sign {
     margin-top: 400px;
