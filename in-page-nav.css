@@ -38,3 +38,12 @@ a:link, a:visited, a:active {
 .portfolio {
     margin-bottom: 150px;
 }
+
+.container{
+    background-image: url("Plam\ Trees.png");
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+}
+

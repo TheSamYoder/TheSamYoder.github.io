@@ -11,13 +11,7 @@
 
 @keyframes flicker {
 
-    0%,
-    18%,
-    22%,
-    25%,
-    53%,
-    57%,
-    100% {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
         text-shadow:
             0 0 4px var(--White),
             0 0 11px var(--White),
@@ -29,9 +23,7 @@
             0 0 150px var(--LightBlue);
     }
 
-    20%,
-    24%,
-    55% {
+    20%, 24%, 55% {
         text-shadow: none;
     }
 }
@@ -125,12 +117,6 @@ a:active {
     color: #fff;
     text-decoration: none;
 }
-
-
-
-
-
-
 
 .triangle-sign {
     margin-top: 400px;
