@@ -9,6 +9,89 @@
     --White: white;
 }
 
+@keyframes pulsate {
+    100% {
+        text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 42px #67CFD0,
+            0 0 82px #67CFD0,
+            0 0 92px #67CFD0,
+            0 0 102px #67CFD0,
+            0 0 151px #1E2C9A;
+    }
+
+    0% {
+        text-shadow:
+            0 0 4px #fff,
+            0 0 10px #fff,
+            0 0 18px #fff,
+            0 0 42px #67CFD0,
+            0 0 82px #67CFD0,
+            0 0 92px #67CFD0,
+            0 0 102px #67CFD0,
+            0 0 151px #67CFD0;
+    }
+}
+
+.neon {
+    color: #fff;
+    text-shadow: 0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #67CFD0,
+        0 0 82px #67CFD0,
+        0 0 92px #67CFD0,
+        0 0 102px #67CFD0,
+        0 0 151px #67CFD0;
+    font-size: 32pt;
+    font-family: 'Handlee',
+        cursive;
+    animation: pulsate .55s ease-in-out infinite alternate;
+}
+
+.neon:focus {
+    color: white;
+}
+
+.about-me {
+    margin-top: 420px;
+    margin-left: 300px;
+    position: absolute;
+    z-index: 5;
+    transform: rotate(-5deg)
+}
+
+.me {
+    margin-left: 50px;
+    
+}
+
+.resume {
+    margin-top: 430px;
+    margin-left: 1470px;
+    position: absolute;
+    z-index: 5;
+    transform: rotate(-5deg)
+}
+
+.contact {
+        margin-top: 735px;
+        margin-left: 615px;
+        position: absolute;
+        z-index: 5;
+        transform: rotate(-5deg)
+}
+
+.portfolio {
+    margin-top: 735px;
+    margin-left: 1145px;
+    position: absolute;
+    z-index: 5;
+    transform: rotate(-5deg)
+}
+
 .triangle-sign {
     margin-top: 400px;
     margin-left: 280px;
