@@ -1,0 +1,40 @@
+.link-container{
+    position: absolute;
+    
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-top: 150px;
+    z-index: 5;
+    font-size:32pt;
+    font-family: 'Orbitron',
+    sans-serif;
+    font-style: italic;
+    color: #67CFD0;
+    text-shadow: 2px 2px white,
+    4px 4px black;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #67CFD0;
+}
+.home {
+    
+    margin-bottom: 150px;
+}
+
+.about-me {
+    margin-bottom: 150px;
+}
+
+.resume {
+    margin-bottom: 150px;
+}
+
+.contact {
+    margin-bottom: 150px;
+}
+
+.portfolio {
+    margin-bottom: 150px;
+}

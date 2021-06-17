@@ -54,7 +54,7 @@
     }
 }
 
-.neon-constant {
+.neon-constant, .neon-constant:active, .neon-constant:visited, .neon-constant:link {
     color: #fff;
     text-shadow: 0 0 7px #fff,
         0 0 10px #fff,
@@ -68,10 +68,12 @@
     font-family: 'Handlee',
         cursive;
     animation: pulsate .55s ease-in-out infinite alternate;
+    text-decoration: none;
 }
 
-.neon-flicker {
-        color: #fff;
+.neon-flicker, .neon-flicker:active, .neon-flicker:visited, .neon-flicker:link {
+    text-decoration: none;    
+    color: #fff;
         text-shadow: 0 0 7px #fff,
         0 0 10px #fff,
         0 0 21px #fff,
@@ -136,10 +138,14 @@
     position: absolute;
     z-index: 5;
     transform: rotate(-5deg)
+    
 }
 
-.portfolio:hover {
-    color: gray;
+
+
+a:hover {
+    color: rgb(119, 118, 118);
+    text-decoration: none;
     text-shadow: 0 0 7px black;
 }
 
@@ -209,10 +215,6 @@
     width: 68.5%;
     height: 68.5%;
     transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     border-right: 4px solid #E1A6A1;
     border-bottom: 4px solid #E1A6A1;
 }
@@ -252,10 +254,6 @@
     width: 68.5%;
     height: 68.5%;
     transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     border-right: 4px solid #F0CA75;
     border-bottom: 4px solid #F0CA75;
 }
@@ -295,10 +293,6 @@
     width: 68.5%;
     height: 68.5%;
     transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     border-right: 4px solid #EF7F8B;
     border-bottom: 4px solid #EF7F8B;
 }
