@@ -21,6 +21,14 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
+    box-shadow: 0 0 7px #F0CA75,
+    0 0 10px #F0AA7E,
+    0 0 21px #F09F81,
+    0 0 42px #EF8A88,
+    0 0 82px #EF7F8B,
+    0 0 92px #EF5F94,
+    0 0 102px #EF5497,
+    0 0 151px #EF5497;
 }
 
 .sun::before,
@@ -39,6 +47,7 @@
     top: auto;
     bottom: 0;
     background-image: linear-gradient(#EF5497, #EF5497);
+    
 }
 
 .sun .sun-part-2 {
