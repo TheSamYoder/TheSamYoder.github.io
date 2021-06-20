@@ -1,0 +1,37 @@
+.icon {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    background-size: cover;
+}
+
+.linkedin-icon {
+    margin-top: 100px;
+    margin-left: 450px;
+    background-image: url("./pictures/linkedin.png");
+}
+
+.github-icon {
+    margin-top: 227.50px;
+    margin-left: 800px;
+    background-image: url("./pictures/gh.png");
+}
+
+.gmail-icon {
+    margin-top: 355px;
+    margin-left: 450px;
+    background-image: url("./pictures/gmail.png");
+}
+
+.slack-icon {
+    margin-top: 482.50px;
+    margin-left: 800px;
+    background-image: url("./pictures/slack.png");
+}
+
+.twitter-icon {
+    margin-top: 610px;
+    margin-left: 450px;
+    background-image: url("./pictures/twitter.png");
+    z-index: 2;
+}
