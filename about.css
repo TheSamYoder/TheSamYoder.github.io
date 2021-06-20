@@ -1,0 +1,31 @@
+.sam-photo {
+    width: 300px;
+    height: 200px;
+    background-image: url(/pictures/Sam\ Buckeye\ Lake.jpg);
+    position: absolute;
+    background-size: cover;
+    margin-top: 250px;
+    margin-left: 400px;
+    z-index: 3;
+    box-shadow: 5px 5px 10px white;
+}
+
+.about {
+    width: 900px;
+    height: 350px;
+    margin-top: 275px;
+    margin-left: 450px;
+    background-color: #9b06b1;
+    position: absolute;
+}
+
+p {
+    position: relative;
+    width: 400px;
+    margin-top: 75px;
+    margin-left: 300px;
+    word-wrap: normal;
+    font-size: 20pt;
+    font-family: 'Teko', sans-serif;
+    color: white;
+}
