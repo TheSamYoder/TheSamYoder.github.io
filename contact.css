@@ -3,12 +3,22 @@
     height: 170px;
     position: absolute;
     background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+    z-index: 3;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.icon:active {
+    transform: scale(.9);
 }
 
 .linkedin-icon {
     margin-top: 100px;
     margin-left: 450px;
-    background-image: url("./pictures/linkedin.png");
 }
 
 .github-icon {

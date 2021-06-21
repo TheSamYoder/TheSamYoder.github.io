@@ -1,13 +1,14 @@
 .sam-photo {
-    width: 300px;
-    height: 200px;
-    background-image: url(/pictures/Sam\ Buckeye\ Lake.jpg);
+    width: 250px;
+    height: 250px;
+    background-image: url(/pictures/Sam\ Buckeye\ Lake1.jpg);
     position: absolute;
     background-size: cover;
     margin-top: 250px;
-    margin-left: 400px;
+    margin-left: 440px;
     z-index: 3;
     box-shadow: 5px 5px 10px white;
+    border-radius: 50%;
 }
 
 .about {
@@ -15,8 +16,9 @@
     height: 350px;
     margin-top: 275px;
     margin-left: 450px;
-    background-color: #9b06b1;
+    background-color: #67CFD0;
     position: absolute;
+    border-radius: 50%;
 }
 
 p {
